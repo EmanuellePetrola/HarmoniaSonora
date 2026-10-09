@@ -3,12 +3,12 @@ const teclas = document.querySelectorAll(".tecla");
 const imagem = document.querySelector(".imagem_sertanejo");
 
 const listaSertanejo = [
-    "../assets/images/apaga.jpg",
-    "../assets/images/retrovisor.jpg",
-    "../assets/images/mausbocados.jpg",
-    "../assets/images/5km.jpg",
-    "../assets/images/cadeiracativa.jpg",
-    "../assets/images/exclusividade.jpg"
+    "./assets/images/apaga.jpg",
+    "./assets/images/retrovisor.jpg",
+    "./assets/images/mausbocados.jpg",
+    "./assets/images/5km.jpg",
+    "./assets/images/cadeiracativa.jpg",
+    "./assets/images/exclusividade.jpg"
 ]
 
 teclas.forEach(function(tecla, indice) {

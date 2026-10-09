@@ -3,12 +3,12 @@ const teclas = document.querySelectorAll(".tecla");
 const imagem = document.querySelector(".imagem_frases");
 
 const listaFrases = [
-    "../assets/images/minhaqueridaEllie.jpg",
-    "../assets/images/asvantagensdeserinvisível.jpg",
-    "../assets/images/clark.jpg",
-    "../assets/images/comoperder.jpg",
-    "../assets/images/minhaquerida.png",
-    "../assets/images/brilho.jpg"
+    "./assets/images/minhaqueridaEllie.jpg",
+    "./assets/images/asvantagensdeserinvisível.jpg",
+    "./assets/images/clark.jpg",
+    "./assets/images/comoperder.jpg",
+    "./assets/images/minhaquerida.png",
+    "./assets/images/brilho.jpg"
 ]
 
 teclas.forEach(function(tecla, indice) {
